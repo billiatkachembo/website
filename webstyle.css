@@ -1,0 +1,292 @@
+
+
+input[type="text"] {
+  padding: 5px;
+  border: white;
+  border-radius: 0px;
+}
+button {
+  padding: 5px 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+Contacts {
+    display: flex;
+    border-bottom: 10px;
+}
+h2 {
+    font-style: Timw New Roman, Times, serif;
+}
+ section#About {
+          background-color: white;
+          border-radius: 5px;
+          margin-top: 20px;
+        }
+
+        section#About h2 {
+          font-size: 24px;
+          color: black;
+          font-style: italic;
+          font-weight:strong;
+        }
+        section#About h2:hover {
+          color: #0056b3;
+          transition: transform 0.4s ease;
+          text-decoration: underline;
+        }
+
+        section#About p {
+          font-size: 20px;
+          font-style: times new romans;
+        }
+
+        section#About span {
+          font-weight: strong;
+          color: black;
+          font-size: 24px;
+          font-style: italic;
+          margin-top: 20px;
+          font-weight: bold;
+        }
+        section#About span:hover {
+          color: #0056b3;
+          transition: transform 0.4s ease;
+          text-decoration: underline;
+        }
+         section#Contact {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    section#Contact h2 {
+      font-size: 24px;
+      color: black;
+      text-transform: capitalize;
+      font-weight:strong;
+      font-style: italic;
+      margin-top: 20px;
+    }
+    section#Contact h2:hover {
+      color: #0056b3;
+      transition: transform 0.4s ease;
+      text-decoration: underline;
+    }
+    section#Subscribe  h2 {
+      background-color: white;
+      color: black;
+      font-style: italic;;
+      font-weight: bold;
+        font-size: 24px;
+      margin-top: 20px;
+    }
+    section#Subscribe h2:hover {
+      color: #0056b3;
+      transition: transform 0.4s ease;
+      text-decoration: underline;
+    }
+
+    section#Contact p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    section#Contact a {
+      color: black;
+      text-decoration: none;
+    }
+
+    section#Contact a:hover {
+      text-decoration: underline;
+        color: #0056b3;
+    }
+     body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      margin: 10px;
+      padding: 10px;
+      background-color: white;
+      animation: fadeIn 2s ease-in-out;
+   }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 3; }
+    }
+
+    header {
+      background-color: white;
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      position: relative;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-links li {
+  position: relative;
+}
+
+    .nav-links li a {
+      text-decoration: none;
+      color: black;
+      font-size: 23px;
+      font-family: 'Times New Roman', Times, serif;
+      transition: background-color 0.4s ease;
+      padding: 5px 10px;
+       
+    }
+    .nav-links li a:hover {
+      background-color: #0056b3;
+      border-radius: 7px;
+      color: white;
+    }
+
+    .right-side {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      transition: transform 0.4s ease transform 0.4s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.6);
+    }
+
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      background-color: 3px solid rgb(11, 13, 13);
+      padding: 5px 5px;
+      border-radius: 25px;
+      border: rgb(240, 237, 237);
+    }
+
+    input[type="text"] {
+        background-color: white;
+      padding: 5px;
+      border: 1px solid black;
+      border-radius: 0px;
+      margin-right: 5px;
+    }
+    input:hover{
+      background-color: #0056b3;
+      transform: scale(1);
+      transition: background-color 0.4s ease, transform 0.4s ease;
+    }
+
+    button {
+      padding: 5px 10px;
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.4s ease, transform 0.4s ease;
+      transition: transfom 0.5s ease;
+      
+    }
+
+    button:hover {
+      background-color: #0056b3;
+      transform: scale(1.2);
+      transition: background-color 0.4s ease, transform 0.4s ease;
+    }
+
+    .mc4wp-form-fields input[type="email"] {
+      background-color: white;
+      width: 40;
+      padding: 5px;
+      border: 1px solid #0a0909;
+      border-radius: 0px;
+    }
+    .mc4wp-form-fields input[type="email"]:hover{
+      background-color: #0056b3;
+      color: white;
+      transform: scale(1);
+        transition: background-color 0.4s ease, transform 0.4s ease;
+    }
+
+    .mc4wp-form-fields input[type="submit"] {
+      background-color: #0056b3;
+      color: white;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .mc4wp-form-fields input[type="submit"]:hover {
+      background-color: #0056b3;
+      transform: scale(1.2);
+    }
+
+    footer {
+       margin-bottom: 5px;
+       margin-bottom: 20px;
+      border-bottom: 1px solid #3b3a3a;
+      display:flex;
+        justify-content: center;
+      display: underline;
+      text-transform:uppercase ;
+      display:block;
+      font-size: 16px;
+    }
+    footer:hover {
+        background-color: #0056b3;
+        transition: background-color 0.4s ease, transform 0.4s ease;
+        text-transform: underline;
+        transition: transform 0.4s ease;
+    }
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  padding: 10px 20px;
+  display: block;
+  white-space: nowrap;
+  color: black;
+}
+
